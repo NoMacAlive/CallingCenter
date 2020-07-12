@@ -1,0 +1,73 @@
+#header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 16px 0 #000;
+    background: #333;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#header.bigheader{
+    height: 100px;
+}
+
+#header.smallheader{
+    height: 60px;
+}
+
+body{
+    background-image: url(../img/banner.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#navigation{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    cursor: pointer;
+    
+}
+#navigation.bignav img{
+    height: 100px;
+}
+#navigation.smallnav img{
+    height: 60px;
+}
+#navigation.bignav a{
+    width: 130px;
+    height: 90px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    float: right;
+    color: #fff;
+    border-right: #999 solid 1px;
+    display: block;
+    background-color: #333333;
+    line-height: 90px;
+    font-size: 14px;
+    border-radius: 0 5px 0 0;
+}
+
+#navigation.smallnav a{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    float: right;
+    color: #fff;
+    border-right: #999 solid 1px;
+    display: block;
+    background-color: #333333;
+    line-height: 50px;
+    font-size: 14px;
+    border-radius: 0 5px 0 0;
+}
+#navigation.smallnav a:hover{background-color:#fff;color:#000; cursor:pointer}
+#navigation.bignav a:hover{background-color:#fff;color:#000; cursor:pointer}
